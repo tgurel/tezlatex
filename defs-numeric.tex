@@ -1,0 +1,306 @@
+%
+\usepackage{color}
+\usepackage{times}
+\usepackage{amssymb,amsmath,mathptmx,amsbsy,bm}
+\usepackage{caption}            %%
+%\usepackage{floatflt}
+%\usepackage[dvipdfm]{graphicx}
+\usepackage{graphics}
+\usepackage{wrapfig}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{colortbl}
+\usepackage{pstricks}
+\usepackage{pst-plot}
+%\usepackage{cite}%
+\usepackage{latexsym}           % 
+%\usepackage{subeqn}
+\usepackage{rotating}
+%\usepackage{amssymb}
+%\usepackage{hyperref}
+%\usepackage{url}
+\usepackage{fixltx2e} % Bu paketi sembollerde text ler için subscript yazmakta yardımcı olması için ekliyoruz.
+
+\usepackage{textcomp}
+
+
+%Bold Equation Number, Unbold Reference
+%\makeatletter
+%\def\tagform@#1{\maketag@@@{\bfseries(\ignorespaces#1\unskip\@@italiccorr)}}
+%\renewcommand{\eqref}[1]{\textup{{\normalfont(\ref{#1}}\normalfont)}}
+%\makeatother
+
+%\renewcommand{\theequation}{{\bf\arabic{chapter}.\arabic{equation}}}
+%%%%\renewcommand{\thefootnote}{\hskip \arabic{footnote}}
+
+\def\be{\begin{equation}} %
+\def\ee{\end{equation}}%
+\def\beq{\begin{eqnarray}}%
+\def\eeq{\end{eqnarray}}%
+\def\bse{\begin{subequations}}%
+\def\ese{\end{subequations}}%
+\def\nonu{\nonumber}%
+\def\psibar{\overline{\psi}} %
+\def\Delslash{\partial\!\!\!\!\!/}%
+\def\Gslash{G\!\!\!\!\!/}%
+\def\Lmbdslash{\lambda\!\!\!\!\!/}%
+\def\Jslash{J\!\!\!\!\!/}%
+\def\pslash{p\!\!\!\!/}%
+\def\qslash{q\!\!\!\!/}%
+\def\kslash{k\!\!\!\!/}%
+\def\[{\left[}
+\def\]{\right]}
+\def\({\left(}
+\def\){\right)}
+
+\def\Lag{{\cal L}}    % 
+\def\D{{\cal D}}      % 
+\def\H{{\cal H}}      % 
+\def\Z{{\cal Z}}      % 
+\def\S{{\textbf{S}}}  % 
+\def\d{{\rm d}}%
+\def\dt{{\rm{dt}}}%
+\def\Tr{{\rm{Tr}}}%
+\def\gm{\gamma^{\mu}}
+\def\ga{\gamma^{\alpha}}
+\def\gb{\gamma^{\beta}}
+\def\gn{\gamma^{\nu}}
+\def\gs{\gamma^{\sigma}}
+\def\gl{\gamma^{\lambda}}
+\def\gr{\gamma^{\rho}}
+\def\gd{\gamma^{\delta}}
+
+
+\usepackage{csquotes}
+\usepackage[%
+backend=biber,
+style=authoryear-comp,
+bibstyle=apa,
+firstinits=true,
+terseinits=true,
+eprint=false,
+doi=false,
+isbn=false,
+url=false,
+apamaxprtauth=20,
+maxcitenames=2,
+uniquelist=false,
+citestyle=numeric-comp,
+sorting=none,
+natbib]{biblatex}
+
+
+
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+
+\defbibenvironment{bibliography}
+{\list
+	{\printtext[labelnumberwidth]{%
+			\printfield{labelprefix}%
+			\printfield{labelnumber}}}
+	{\setlength{\labelwidth}{\labelnumberwidth}%
+		\setlength{\leftmargin}{\labelwidth}%
+		\setlength{\labelsep}{\biblabelsep}%
+		\addtolength{\leftmargin}{\labelsep}%
+		\setlength{\itemsep}{\bibitemsep}%
+		\setlength{\parsep}{\bibparsep}}%
+	\renewcommand*{\makelabel}[1]{\hss##1}}
+{\endlist}
+{\item}
+
+
+
+\DeclareLanguageMapping{american}{american-apa}
+\DefineBibliographyStrings{american}{andothers={ve\ \addabbrvspace ark\adddot}}
+\DefineBibliographyStrings{american}{and={\hspace{-0.1cm}}}
+
+
+
+
+%bib itemlar arası mesafe
+\setlength\bibitemsep{6pt}
+
+% bir bibitem iki sayfaya bolunmemeli
+\patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
+
+% and yada & ifadesini siliyor..
+\DeclareDelimFormat*{finalnamedelim}
+{\ifnum\value{liststop}>2 \finalandcomma\fi\addspace ve\space}
+
+% the bibliography also needs another conditional, so we can't wrap
+% everything up with just the two lines above
+\DeclareDelimFormat[bib,biblist]{finalnamedelim}{%
+	\ifthenelse{\value{listcount}>\maxprtauth}
+	{}
+	{\ifthenelse{\value{liststop}>2}
+		{\finalandcomma\addspace\bibstring{}}
+		{\addspace\bibstring{}}}}
+
+% this is a special delimiter to solve the bugs reported in
+% https://tex.stackexchange.com/q/417648/35864
+\DeclareDelimFormat*{finalnamedelim:apa:family-given}{%
+	\ifthenelse{\value{listcount}>\maxprtauth}
+	{}
+	{\finalandcomma\addspace\bibstring{}}}
+
+% virgul
+
+\DeclareDelimFormat{nameyeardelim}{\space}
+
+
+
+
+\usepackage{xpatch}
+
+\xpatchnameformat{labelname}
+{\ifciteseen}{\ifnumcomp{\value{listtotal}}{>}{\value{maxnames}}}{}{}
+
+
+
+\DefineBibliographyExtras{american}{\def\finalandcomma{\addcomma}}
+
+\xpatchbibmacro{editorinauthpos}{%
+	\clearname{editor}%
+	\setunit{\adddot\addspace}%
+}{%
+	\clearname{editor}%
+	\setunit{\addspace}%
+}{}{}
+
+
+\renewcommand{\multicitedelim}{\addcomma\space}
+
+\renewcommand{\labelnamepunct}{\addspace}
+\renewcommand{\bibpagespunct}{\addcolon\space}
+
+
+\xpatchbibmacro{journal+issuetitle}{%
+	\usebibmacro{journal}%
+	\setunit*{\addcomma\addspace}%
+}
+{%
+	\usebibmacro{journal}%
+	\setunit*{\addspace}%
+}{}{}
+
+% Omit commas in reversed names
+% soyadından sonraki virgülü siliyor.
+\renewcommand*{\revsdnamepunct}{}
+
+\renewbibmacro*{name:apa:last-first}[5]{%
+	\ifuseprefix
+	{\usebibmacro{name:delim}{#4#1}%
+		\usebibmacro{name:hook}{#4#1}%
+		\ifblank{#4}{}{%
+			\mkbibnameprefix{#4}%
+			\ifpunctmark{'}{}{\addhighpenspace}}%
+		\mkbibnamelast{#1\isdot}%
+		\ifblank{#2}{}{\revsdnamepunct\bibnamedelimd\mkbibnamefirst{#3}\isdot%
+			\ifthenelse{\value{uniquename}>1}
+			{\addspace\mkbibbrackets{#2}}
+			{}}%
+		\ifblank{#5}{}{\addcomma\bibnamedelimd\mkbibnameaffix{#5}\isdot}}
+	{\usebibmacro{name:delim}{#1}%
+		\usebibmacro{name:hook}{#1}%
+		\mkbibnamelast{#1}\isdot
+		\ifblank{#2#4}{}{\revsdnamepunct}%
+		\ifblank{#2}{}{\bibnamedelimd\mkbibnamefirst{#3}%
+			\ifthenelse{\value{uniquename}>1}
+			{\addspace\mkbibbrackets{#2}}
+			{}}%
+		\ifblank{#4}{}{%
+			\addhighpenspace\mkbibnameprefix{#4}%
+			\ifpunctmark{'}{}{\addhighpenspace}}%
+		\ifblank{#5}{}{\addcomma\addlowpenspace\mkbibnameaffix{#5}\isdot}}}
+
+
+% ilk isimlerin sonundaki noktaları siliyor
+\makeatletter
+\renewbibmacro*{name:last-first}[4]{%
+	\ifuseprefix
+	{\usebibmacro{name:delim}{#3#1}%
+		\usebibmacro{name:hook}{#3#1}%
+		\ifblank{#3}{}{%
+			\ifcapital
+			{\mkbibnameprefix{\MakeCapital{#3}}\isdot}
+			{\mkbibnameprefix{#3}\isdot}%
+			\ifpunctmark{'}{}{\bibnamedelimc}}%
+		\mkbibnamelast{#1}\isdot
+		\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}%
+		%      \ifblank{#2}{}{\addcomma\bibnamedelimd\mkbibnamefirst{#2}\isdot}}% DELETED
+		\ifblank{#2}{}{\bibnamedelimd\mkbibnamefirst{#2}\isdot}}% NEW
+	{\usebibmacro{name:delim}{#1}%
+		\usebibmacro{name:hook}{#1}%
+		\mkbibnamelast{#1}\isdot
+		\ifblank{#4}{}{\bibnamedelimd\mkbibnameaffix{#4}\isdot}%
+		%      \ifblank{#2#3}{}{\addcomma}% DELETED
+		\ifblank{#2}{}{\bibnamedelimd\mkbibnamefirst{#2}\isdot}%
+		\ifblank{#3}{}{\bibnamedelimd\mkbibnameprefix{#3}\isdot}}}
+\makeatother
+
+\DeclareNameAlias{sortname}{last-first}
+
+% ilk isimlerin arasına boşluk koyuyor
+%\renewrobustcmd*{\bibinitdelim}{\,}
+
+
+% en sondaki yazarın sonuna nokta koyuyordu o silindi.
+\renewbibmacro*{author}{%
+	\ifnameundef{author}
+	{\usebibmacro{labeltitle}}
+	{\printnames[apaauthor][-\value{listtotal}]{author}%
+		\setunit*{\addspace}%
+		\printfield{nameaddon}%
+		\ifnameundef{with}
+		{}
+		{\setunit{}\addspace\mkbibparens{\printtext{\bibstring{with}\addspace}%
+				\printnames[apaauthor][-\value{listtotal}]{with}}
+			\setunit*{\addspace}}}%
+	\setunit{\addspace}\newblock%
+	\usebibmacro{labelyear+extradate}}
+
+\renewbibmacro*{editorinauthpos}{%
+	\global\booltrue{bbx:editorinauthpos}%
+	\printnames[apaauthor][-\value{listtotal}]{editor}%
+	\setunit{\addspace}%
+	\ifnameundef{editor}
+	{}
+	{\printtext[parens]{\usebibmacro{apaeditorstrg}{editor}}%
+		% need to clear editor so we don't get an "In" clause later
+		% But we also need to set a flag to say we did this so we
+		% don't lose sight of the fact we once had an editor for
+		% various year placement tests
+		\clearname{editor}%
+		\setunit{\addspace}%
+		\usebibmacro{labelyear+extradate}%
+		\setunit{\adddot\addspace}}}
+
+% yuzde ısareti için
+\DeclareSourcemap{
+	\maps[datatype = bibtex]{
+		\map{
+			\step[fieldsource = abstract,
+			match = \regexp{([^\\])\%},
+			replace = \regexp{$1\\\%}]
+		}
+	}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+
+%\newtheorem{thm}{Teorem} % is it right?
+%\newtheorem{ex}{Voorbeeld}
+
+%% footnote ikinci satır için.. daha sonra bakılacak
+%\makeatletter
+%\renewcommand\@makefntext[1]{\leftskip=2em\hskip0em\@makefnmark#1}
+%\makeatother

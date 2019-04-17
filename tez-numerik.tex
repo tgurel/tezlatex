@@ -1,0 +1,233 @@
+%% Bu tez TNKÜ FBE için İTÜ'ne ait itutez.cls baz alınarak hazırlanmıştır.
+
+
+% ---------------------------------------------------------------- %
+%                     LATEX Tez Sablonu		                   %
+%                                                                  %
+%		         Surum 1.5.1                               %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% ITU Bilisim Enstitusu tarafindan hazirlanmistir.	           %
+%                                                                  %
+% İTÜ Ayazağa Kampüsü, Bilişim Enstitüsü Binası                    %
+% Maslak-34469, İstanbul 	                                   %
+% http://www.be.itu.edu.tr                                         %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% documentclass kullanim argumanlari: 				   %
+% [onluarkali,tekyonlu],[turkce,ingilizce],[yukseklisans,doktora], %
+% [bez,karton],[bilisim,fenbilimleri,sosyalbilimler,avrasya,enerji]%
+% Ornek kullanim: \documentclass[onluarkali,ingilizce,yukseklisans,%
+% karton,fenbilimleri]{itutez}					   %
+% Baska Ornek kullanim: \documentclass[tekyonlu,ingilizce,	   %
+% yukseklisans,bez,bilisim]{itutez}			           %
+% ---------------------------------------------------------------- %
+%\documentclass[tekyonlu,turkce,yukseklisans,karton,fenbilimleri]{itutez}
+\documentclass[tekyonlu,turkce,yukseklisans,karton,fenbilimleri]{tnkutez}
+% ---------------------------------------------------------------- %
+% Komutlarda buyuk ve kucuk harf ayrimina ozen gostermek           %
+% gereklidir. Ornegin argumanin {\"O\u{g}\-ren\-ci Ad{\i}}{SOYADI} %
+% yapisinda olmasi demek, adlarda ilk harflerin buyuk ve           %
+% digerlerinin kucuk, soyadinda ise butun harflerin buyuk olmasi   %
+% gerektigi anlamina gelmektedir.				   %
+% ---------------------------------------------------------------- %
+
+           
+
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%\usepackage{subfig}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+%\usepackage[comma,authoryear,round]{natbib}
+%\setlength{\bibsep}{6pt}
+%\setlength{\bibhang}{1.25cm}
+%\setcitestyle{aysep={}}
+%\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage{subcaption}
+
+
+
+
+
+
+% ---------------------------------------------------------------- %
+% Sadece Ad SOYAD yazilmalidir. Unvan yazilmamalidir.              %
+% ---------------------------------------------------------------- %
+\yazar{Ad}{SOYAD} 
+\ogrencino{ }
+
+% ---------------------------------------------------------------- %
+% Kullanmayacaginiz yapilarin ayirac aralarini bos birakiniz.      %
+% Ornek: \unvan{}                                                  %
+% ---------------------------------------------------------------- %
+\unvan{}
+ 
+% ---------------------------------------------------------------- %
+% Asagidaki yapilarda birinci oge Turkce, ikinci oge Ingilizce     %
+% yapiyi olusturmak icindir.	                                   %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% Sozcuklerin ilk harfleri buyuk, diger harfler kucuk yazilacak.   %
+% ---------------------------------------------------------------- %
+\anabilimdali{AAA Anabilim Dal{\i}}{Department of AAA}
+\programi{}{}
+
+% ---------------------------------------------------------------- %
+% Beyaz cilt hazirlarken bolume verildigi tarih esas alinir.       %
+% Bez (mavi-siyah) ciltte ise tezin savunuldugu tarih ay yil 	   %
+% olarak yazilir. 						   %
+% ---------------------------------------------------------------- %
+\tarih{TEKİRDAĞ-2019}{TEKİRDAĞ-2019}
+\tarihKucuk{2019}{2019}
+\tarihAyYil{Mart 2019}{March 2019}
+% ---------------------------------------------------------------- %
+% Danisman, baslik ve tez tarihi bilgileri icin asagidaki yapi     %
+% kullanilmaktadir.						   %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% Danisman bilgisi, beyaz kapakli tezde ilk sayfada var. Bez       %
+% (mavi-siyah) ciltte yok. Neden? Cunku ic kapakta gececek.        %						
+% ---------------------------------------------------------------- %
+\tezyoneticisi{Prof. Dr. Ad SOYAD}{Tekirdağ Namık Kemal Üniversitesi}   
+
+\baslik{TEZ BA\c SLI\u GI BURAYA GEL\. IR}{GEREKL\.I \.ISE \.IK\.INC\.I SATIR}{GEREKL\.I \.ISE \"U\c C\"UNC\"U SATIR,
+	\"U\c{C} SATIRA SI\u{G}DIRINIZ}
+
+\title{THESIS TITLE HERE}{SECOND LINE IF NECESSARY}{THIRD LINE IF NECESSARY, FIT TITLE IN THREE LINES}
+
+% ---------------------------------------------------------------- %
+% Bu tarih beyaz kapakli ilk tezin bolume verildigi tarihtir.      %
+% ---------------------------------------------------------------- %
+%\tezvermetarih{17 Aral\i k 2014}{SEPTEMBER 2015} 
+\tezvermetarih{15.04.2019}{Nisan 2019} 
+
+\tezsavunmatarih{15.03.2019}{Mart 2015}
+
+% ---------------------------------------------------------------- %
+% Esdanisman ve juri bilgileri asagidadir. Kullanmayacaginiz satiri%
+% tumuyle silmeyiniz. Argumanini bos birakiniz.                    %
+% Ornek: \esdanismani{}{} 					   %
+% ---------------------------------------------------------------- %
+%\esdanismani{Prof. Dr. Ad{\i} SOYADI}{\.Istanbul Teknik \"Universitesi}   
+%\esdanismani{Prof. Dr. Ad{\i} SOYADI}{\.Istanbul Teknik \"Universitesi}   
+%\esdanismani{}{}  
+
+\esdanismani{Prof. Dr. Ad{\i} SOYADI}{Tekirdağ Namık Kemal Üniversitesi}   
+
+\juriBir{Prof. Dr. Ad{\i} SOYADI}{Y\i ld\i z Teknik \"Universitesi}
+
+\juriIki{Prof. Dr. Ad{\i} SOYADI}{Bo\u{g}azi\c{c}i \"Universitesi}
+
+\juriUc{Prof. Dr. Ad{\i} SOYADI}{Gebze Y\"uksek Teknoloji Enstit\"us\"u}
+
+\juriDort{Prof. Dr. Ad{\i} SOYADI}{\c{S}i\c{s}li Etfal E\u{g}itim ve Ara\c{s}t\i rma Hastanesi}
+
+\juriBes{Prof. Dr. Ad{\i} SOYADI}{Bilkent \"Universitesi}
+
+
+\enstitumuduru{Prof. Dr. Fatih KONUKCU}{}
+
+\input defs-numeric.tex    
+\addbibresource{./library.bib}                     
+
+% ---------------------------------------------------------------- %
+% Ithaf sayfasinda bulunacak tumceler icin kullanilabilecek        %
+% yapi asagidadir. Ithaf sayfasi bulunmayacaksa argumani(ayiraclar %
+% arasini) bos birakiniz.					   %
+% ---------------------------------------------------------------- %
+\ithaf{}
+
+% ---------------------------------------------------------------- %
+% Proje sayfasinda bulunacak tumceler icin kullanilabilecek        %
+% yapi asagidadir. Proje sayfasi bulunmayacaksa argumani(ayiraclar %
+% arasini) bos birakiniz.					   %
+% ---------------------------------------------------------------- %
+% proje
+\proje{Bu tez .................... (TÜBİTAK / SANTEZ / NKÜBAP vb.) .................. tarafından ................................................................... numaralı proje ile desteklenmiştir. }
+
+% ---------------------------------------------------------------- %
+% Asagida belirtilen tex uzantili dosyalarin icerigi		   %
+% olusturulmalidir.						   %
+% ---------------------------------------------------------------- %
+
+\ozet{\input ozet.tex}
+\summary{\input summary.tex}  
+\onsoz{\input tesekkur.tex}             
+\kisaltmalistesi{\input simge_ve_kisaltmalar.tex}
+%\sembollistesi{\input semboller.tex}
+
+        
+\begin{document}
+
+% ---------------------------------------------------------------- %
+% Asagida belirtilen tex uzantili dosyalarin icerigi		   %
+% olusturulmalidir. Tezin butun bolumlerine karsilik gelen girdi   %
+% satirlari belirtilmelidir. Eger tezinizde daha az bolum varsa,   %
+% karsilik gelen \input chx.tex satirlari silinmelidir.            %
+% ---------------------------------------------------------------- %
+
+
+
+
+\input bolum1-numerik.tex
+\input bolum2.tex
+\input bolum3.tex
+\input bolum4.tex
+
+%\input ch2.tex                       
+%\input ch3.tex                      
+%\input ch4.tex
+%\input ch5.tex
+%\input ch6.tex
+
+
+% ---------------------------------------------------------------- %
+% Bibtex veritabani biceminde olmasi gereken tez.bib dosyasina     %
+% tezin referanslari yerlestirilmeli, bu referanslara, tez         %
+% icerisinde \cite komutu ile basvuru yapilmalidir.                %
+% ---------------------------------------------------------------- %
+%\bibliographystyle{itubib} 
+%\bibliographystyle{unsrt} 
+%\addtocontents{toc}{\addvspace{-10@}}
+\newpage
+\addtocontents{toc}{\addvspace{-10pt}}
+\addcontentsline{toc}{chapter}{\bf{KAYNAKLAR}}
+%\bibliographystyle{./apalike2}
+%\singlespacing
+%\bibliography{../../Bibtex/library}
+\printbibliography[title=\normalsize{KAYNAKLAR}]
+
+% ---------------------------------------------------------------- %
+% Ekler icin asagida belirtilen tex uzantili dosyalar 		   %
+% olusturulmali, eger ek kullanilmayacaksa, karsilik gelen         %
+% satirlar silinmelidir.                                           %
+% ---------------------------------------------------------------- %
+%\eklerkapak{}
+%\input eklerkapak.tex  
+
+% ---------------------------------------------------------------- %
+% Ek icin bolum ayari. \eklerbolum{x} x bolumlu olusturur. Bu olgu,% 
+% tablo ve sekillerin adreslenmesinde bu baglamda kullanilir. A    %
+% ile baslamak icin \eklerbolum{0} yazilmalidir.                   %
+% ---------------------------------------------------------------- %
+%\eklerbolum{0}
+%\input ekler.tex
+
+% ---------------------------------------------------------------- %
+% Ozgecmis ile ilgili dosya adi asagida belirtilmistir.            %
+% ---------------------------------------------------------------- %
+\ozgecmis{\input ozgecmis.tex}
+\end{document}                      
+
+% ---------------------------------------------------------------- %
+% LATEX Sablonu ile ilgili iletisim icin: iletisim@be.itu.edu.tr   %
+% ---------------------------------------------------------------- %

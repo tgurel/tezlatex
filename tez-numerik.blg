@@ -1,0 +1,22 @@
+[4] Config.pm:302> INFO - This is Biber 2.11
+[7] Config.pm:305> INFO - Logfile is 'tez-numerik.blg'
+[454] biber-MSWIN64:313> INFO - === 
+[639] Biber.pm:371> INFO - Reading 'tez-numerik.bcf'
+[1104] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[1237] Biber.pm:3976> INFO - Processing section 0
+[1349] Biber.pm:4136> INFO - Looking for bibtex format file './library.bib' for section 0
+[1359] bibtex.pm:1500> INFO - LaTeX decoding ...
+[1448] bibtex.pm:1316> INFO - Found BibTeX data source './library.bib'
+[1676] Utils.pm:193> WARN - month field 'sep' in entry 'Kovnir2013' is not an integer - this will probably not sort properly.
+[1720] Utils.pm:193> WARN - month field 'sep' in entry 'Yoo2010' is not an integer - this will probably not sort properly.
+[1822] Utils.pm:193> WARN - month field 'jan' in entry 'Sakamoto2005' is not an integer - this will probably not sort properly.
+[1932] Utils.pm:193> WARN - month field 'nov' in entry 'Hai-Jun2010' is not an integer - this will probably not sort properly.
+[2098] Utils.pm:193> WARN - month field 'jun' in entry 'Thompson2014' is not an integer - this will probably not sort properly.
+[2119] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\ccmp-hp\AppData\Local\Temp\p9g0Z8HFHK\library.bib_4132.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[2298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2298] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2299] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2299] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2444] bbl.pm:617> INFO - Writing 'tez-numerik.bbl' with encoding 'UTF-8'
+[2532] bbl.pm:720> INFO - Output to tez-numerik.bbl
+[2570] Biber.pm:110> INFO - WARNINGS: 6

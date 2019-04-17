@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Olekseyuk2002}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=53895f88a48514ba228f15998e1f1267}{%
+           family={Olekseyuk},
+           familyi={O\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53895f88a48514ba228f15998e1f1267}
+      \strng{fullhash}{53895f88a48514ba228f15998e1f1267}
+      \strng{bibnamehash}{53895f88a48514ba228f15998e1f1267}
+      \strng{authorbibnamehash}{53895f88a48514ba228f15998e1f1267}
+      \strng{authornamehash}{53895f88a48514ba228f15998e1f1267}
+      \strng{authorfullhash}{53895f88a48514ba228f15998e1f1267}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Alloys and Compounds}
+      \field{number}{1-2}
+      \field{title}{{Single crystal preparation and crystal structure of the Cu$_2$Zn/Cd,Hg/SnSe$_4$ compounds}}
+      \field{volume}{340}
+      \field{year}{2002}
+      \field{pages}{141\bibrangedash 145}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/S0925-8388(02)00006-3
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/vancat/Documents/Mendeley Desktop//Olekseyuk - 2002 - Single crystal preparation and crystal structure of the Cu2ZnCd,HgSnSe4 compounds.pdf:pdf
+      \endverb
+      \keyw{crystal growth,crystal structure,intermetallic compounds,semiconductors,x-ray diffraction}
+    \endentry
+    \entry{Sakamoto2005}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=16652d3a080077f176b6feacc517c842}{%
+           family={Sakamoto},
+           familyi={S\bibinitperiod},
+           given={Hiroki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4248d0e53f568ac67aff5513c2fc74e7}{%
+           family={Fujii},
+           familyi={F\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d8936dd9ccf5b2d908fdb5394d997011}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Katsushi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4a6ce4fab0428066d20c4cc407b28d1c}{%
+           family={Inui},
+           familyi={I\bibinitperiod},
+           given={Haruyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e1d4584334787a926974a706b688903}
+      \strng{fullhash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{bibnamehash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{authorbibnamehash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{authornamehash}{1e1d4584334787a926974a706b688903}
+      \strng{authorfullhash}{9299783ebabe52a1ed5d027482d41f21}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13596454}
+      \field{journaltitle}{Acta Materialia}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Enantiomorph identification of transition-metal disilicides with the C40 structure (the space group of P6222 and P6422) by new convergent-beam electron diffraction method}}
+      \field{volume}{53}
+      \field{year}{2005}
+      \field{pages}{41\bibrangedash 52}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.actamat.2004.08.001
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/vancat/Documents/Mendeley Desktop/Sakamoto et al. - 2005 - Enantiomorph identification of transition-metal disilicides with the C40 structure (the space group of P6222 an.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S1359645404004689
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S1359645404004689
+      \endverb
+    \endentry
+    \entry{Yoo2010}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c3b95e566ec2f3ceba2951a61d6ce2d}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Hyesun},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9f3f5c04dd234d6a89ffa0b28fc00512}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={JunHo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{bae1068e0588391de0de00283a9b1771}
+      \strng{fullhash}{bae1068e0588391de0de00283a9b1771}
+      \strng{bibnamehash}{bae1068e0588391de0de00283a9b1771}
+      \strng{authorbibnamehash}{bae1068e0588391de0de00283a9b1771}
+      \strng{authornamehash}{bae1068e0588391de0de00283a9b1771}
+      \strng{authorfullhash}{bae1068e0588391de0de00283a9b1771}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00406090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{month}{9}
+      \field{number}{22}
+      \field{title}{{Growth of Cu$_2$ZnSnS$_4$ thin films using sulfurization of stacked metallic films}}
+      \field{volume}{518}
+      \field{year}{2010}
+      \field{pages}{6567\bibrangedash 6572}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.tsf.2010.03.058
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/vancat/Documents/Mendeley Desktop//Yoo, Kim - 2010 - Growth of Cu2ZnSnS4 thin films using sulfurization of stacked metallic films.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0040609010003676
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0040609010003676
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
