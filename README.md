@@ -24,11 +24,11 @@ Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
    * tez danışmanınız, varsa ikinci danışmanınız
    * tez savunma tarihi
    * jüri ad soyad **bilgileri girilecektir.**
-**ozet.tex**
+* **ozet.tex**
    * özetinin bu dosyaya yazmalısınız.
-**summary.tex**
+* **summary.tex**
    * ingilizce özetinizi bu dosyaya yazmalısınız.
-**simge_ve_kisaltmalar.tex**
+* **simge_ve_kisaltmalar.tex**
    * simge ve kısaltmalarınızı bu dosyada tablo halinde vermelisiniz.
-**tesekkur.tex**
+* **tesekkur.tex**
    * 
