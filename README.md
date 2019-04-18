@@ -21,6 +21,14 @@ Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
 
 * **tez-alfabetik.tex (ya da tez-numerik.tex): Burada**
    * Adınız Soyadınız, mesleğiniz
-   * tez daışmanınız, varsa ikinci danışmanınız
+   * tez danışmanınız, varsa ikinci danışmanınız
    * tez savunma tarihi
    * jüri ad soyad **bilgileri girilecektir.**
+**ozet.tex**
+   * özetinin bu dosyaya yazmalısınız.
+**summary.tex**
+   * ingilizce özetinizi bu dosyaya yazmalısınız.
+**simge_ve_kisaltmalar.tex**
+   * simge ve kısaltmalarınızı bu dosyada tablo halinde vermelisiniz.
+**tesekkur.tex**
+   * 
