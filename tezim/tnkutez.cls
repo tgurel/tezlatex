@@ -119,7 +119,7 @@
 \clubpenalty=10000
 
 \newlength{\ChapterUstenBosluk}
-\setlength{\ChapterUstenBosluk}{18.5mm}
+\setlength{\ChapterUstenBosluk}{0mm}
 \newlength{\UstenBosluk}
 \setlength{\UstenBosluk}{14mm}
 

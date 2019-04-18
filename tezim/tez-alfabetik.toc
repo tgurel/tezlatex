@@ -28,7 +28,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.3}\IeC {\c S}ekil \IeC {\"O}rne\IeC {\u g}i}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Denklem \IeC {\"O}rnekleri}{4}
+\contentsline {subsection}{\numberline {1.1.4}Denklem \IeC {\"O}rnekleri}{3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.5}Madde \IeC {\.I}\IeC {\c s}aretleri ve Numaraland\IeC {\i }rma}{4}
 \defcounter {refsection}{0}\relax 
