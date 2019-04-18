@@ -1,6 +1,5 @@
 # tezlatex
-Tekirdağ Namık Kemal Üniversitesi Fen Bilimleri Enstitüsü için
-Latex kullanarak tez yazım şablonları..
+## Tekirdağ Namık Kemal Üniversitesi Fen Bilimleri Enstitüsü için Latex kullanan tez yazım şablonları..
 
 
 İndirilecek programlar
