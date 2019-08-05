@@ -7,6 +7,7 @@
 - Texstudio editörü (ikinci kurulacak)
 
 ### Ayarlar
+- Texstudio'da "Bibliography" "biber" olarak ayarlanmalıdır.
 - Texstudio --> Configure Texstudio -->  Options --> Build --> Default Bibliography Tool --> biber
 
 ### Bu sitedeki dosyaları indirme
@@ -17,13 +18,15 @@
 
 Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
 
+
 ### İlgili .tex dosyaları
 
-* **tez-alfabetik.tex (ya da tez-numerik.tex): Burada**
+* **tezim.tex : Burada**
    * Adınız Soyadınız, mesleğiniz
    * tez danışmanınız, varsa ikinci danışmanınız
    * tez savunma tarihi
    * jüri ad soyad **bilgileri girilecektir.**
+   * Ayrıca "apa" ya da "IEEE" referans stili seçilecektir.
 * **ozet.tex**
    * özetinin bu dosyaya yazmalısınız.
 * **summary.tex**
