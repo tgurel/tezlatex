@@ -11,7 +11,7 @@
 - Texstudio --> Configure Texstudio -->  Options --> Build --> Default Bibliography Tool --> biber
 
 ### Bu sitedeki dosyaları indirme
- - Sağ üstte "Clone or download" dan "Download ZIP" seçilir.
+ - Sağ üstte "Clone or download" dan "Download ZIP" seçilir. (https://github.com/tgurel/tezlatex/archive/master.zip)
  - tezlatex-master.zip dosyası indirilir ve "tezim" klasörü sıkıştırılmış dosyadan bilgisayarınıza çıkarılır.
 
 ### Tez yazımı
