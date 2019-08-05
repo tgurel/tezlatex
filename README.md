@@ -28,7 +28,7 @@ Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
    * jüri ad soyad **bilgileri girilecektir.**
    * Ayrıca "apa" ya da "IEEE" referans stili seçilecektir.
 * **ozet.tex**
-   * özetinin bu dosyaya yazmalısınız.
+   * özetinizi bu dosyaya yazmalısınız.
 * **summary.tex**
    * ingilizce özetinizi bu dosyaya yazmalısınız.
 * **simge_ve_kisaltmalar.tex**
