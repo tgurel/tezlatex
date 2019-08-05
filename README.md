@@ -3,8 +3,8 @@
 
 ### İndirilecek programlar
 
-- Miktex dağıtımı (ilk kurulacak)
-- Texstudio editörü (ikinci kurulacak)
+- Miktex dağıtımı https://miktex.org/download (ilk kurulacak) (veya başka dağıtım, ama testler Miktex ile yapıldı) 
+- Texstudio editörü https://www.texstudio.org/ (ikinci kurulacak) (veya başka sevdiğiniz bir editör) 
 
 ### Ayarlar
 - Texstudio'da "Bibliography" "biber" olarak ayarlanmalıdır.
