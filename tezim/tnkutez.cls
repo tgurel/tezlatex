@@ -507,8 +507,8 @@ DİZİNİ\fi\normalfont}
 \newcommand*{\bibnameToC}{\fontfamily{ptm}\normalsize\selectfont \if@Ingilizce REFERENCES\else KAYNAKLAR\fi\normalfont}
 \newcommand*{\symbolname}{\th@ChapHead{\if@Ingilizce SYMBOLS\else SEMBOLLER\fi}}
 \newcommand*{\kisaltmanameToC}{\fontfamily{ptm}\normalsize\selectfont \if@Ingilizce ABBREVIATIONS\else
-SİMGELER ve KISALTMALAR DİZİNİ\fi\normalfont}
-\newcommand*{\kisaltmaname}{\th@ChapHead{\if@Ingilizce ABBREVIATIONS\else SİMGELER ve KISALTMALAR DİZİNİ\fi}} 
+SİMGELER ve KISALTMALAR\fi\normalfont}
+\newcommand*{\kisaltmaname}{\th@ChapHead{\if@Ingilizce ABBREVIATIONS\else SİMGELER ve KISALTMALAR\fi}} 
 
 \def\prefacename{\th@ChapHead{\if@Ingilizce FOREWORD\else TEŞEKKÜR\fi}}%
 \def\refname{\th@ChapHead{\if@Ingilizce REFERENCES\else KAYNAKLAR\fi}}%
@@ -1116,10 +1116,10 @@ SİMGELER ve KISALTMALAR DİZİNİ\fi\normalfont}
 	\thispagestyle{empty}
 	\vspace*{0.7\textheight}
 	
-\noindent Bu tezde görsel, işitsel ve yazılı biçimde sunulan tüm bilgi ve sonuçların akademik ve etik kurallara uyularak tarafımdan elde edildiğini, tez içinde yer alan ancak bu çalışmaya özgü olmayan tüm sonuç ve bilgileri tezde eksiksiz biçimde kaynak göstererek belirttiğimi beyan ederim.
+Bu tezde görsel, işitsel ve yazılı biçimde sunulan tüm bilgi ve sonuçların akademik ve etik kurallara uyularak tarafımdan elde edildiğini, tez içinde yer alan ancak bu çalışmaya özgü olmayan tüm sonuç ve bilgileri tezde eksiksiz biçimde kaynak göstererek belirttiğimi beyan ederim.
 \vspace*{0.5cm}
 \begin{flushright}
-	\th@isimsoyisim
+	\th@isimsoyisim\\
 \end{flushright}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -1496,9 +1496,6 @@ before the jury whose signatures are below.
       \fi 
         \ToCspacing
         \tableofcontents
-        \if@KisaltmaListesiVar
-	  \kisaltmalist
-        \fi
 %        \if@SembolListesiVar
 %	  \symbollist
 %        \fi
@@ -1510,7 +1507,10 @@ before the jury whose signatures are below.
 	  \LoFspacing
 	  \listoffigures
         \fi
-              \if@TesekkurVar
+		\if@KisaltmaListesiVar
+		\kisaltmalist
+		\fi
+      \if@TesekkurVar
       \th@Onsoz
       \fi
 	\BolumSagdaKalsinNolu

@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'tezim.blg'
+[54] biber-MSWIN64:315> INFO - === 
+[101] Biber.pm:371> INFO - Reading 'tezim.bcf'
+[248] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[274] Biber.pm:4093> INFO - Processing section 0
+[300] Biber.pm:4254> INFO - Looking for bibtex format file 'refs.bib' for section 0
+[305] bibtex.pm:1523> INFO - LaTeX decoding ...
+[328] bibtex.pm:1340> INFO - Found BibTeX data source 'refs.bib'
+[342] Utils.pm:193> WARN - month field 'jan' in entry 'Sakamoto2005' is not an integer - this will probably not sort properly.
+[379] Utils.pm:193> WARN - month field 'jun' in entry 'Thompson2014' is not an integer - this will probably not sort properly.
+[387] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\vancat\AppData\Local\Temp\fYa4SRUkHD\refs.bib_8768.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[409] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[409] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[409] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[409] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[424] bbl.pm:636> INFO - Writing 'tezim.bbl' with encoding 'UTF-8'
+[431] bbl.pm:739> INFO - Output to tezim.bbl
+[432] Biber.pm:110> INFO - WARNINGS: 3

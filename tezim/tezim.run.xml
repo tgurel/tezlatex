@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>tez-alfabetik.bcf</file>
+      <file>tezim.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>tez-alfabetik.bbl</file>
+      <file>tezim.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,22 +68,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>tez-alfabetik</infile>
+      <infile>tezim</infile>
     </cmdline>
     <input>
-      <file>tez-alfabetik.bcf</file>
+      <file>tezim.bcf</file>
     </input>
     <output>
-      <file>tez-alfabetik.bbl</file>
+      <file>tezim.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>tez-alfabetik.bbl</file>
+      <file>tezim.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>tez-alfabetik.bcf</file>
+      <file>tezim.bcf</file>
     </requires>
     <requires type="editable">
-      <file>./library.bib</file>
+      <file>refs.bib</file>
     </requires>
   </external>
 </requests>

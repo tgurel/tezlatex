@@ -1,0 +1,197 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Sakamoto2005}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=16652d3a080077f176b6feacc517c842}{%
+           family={Sakamoto},
+           familyi={S\bibinitperiod},
+           given={Hiroki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4248d0e53f568ac67aff5513c2fc74e7}{%
+           family={Fujii},
+           familyi={F\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d8936dd9ccf5b2d908fdb5394d997011}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Katsushi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4a6ce4fab0428066d20c4cc407b28d1c}{%
+           family={Inui},
+           familyi={I\bibinitperiod},
+           given={Haruyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e1d4584334787a926974a706b688903}
+      \strng{fullhash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{bibnamehash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{authorbibnamehash}{9299783ebabe52a1ed5d027482d41f21}
+      \strng{authornamehash}{1e1d4584334787a926974a706b688903}
+      \strng{authorfullhash}{9299783ebabe52a1ed5d027482d41f21}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13596454}
+      \field{journaltitle}{Acta Materialia}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Enantiomorph identification of transition-metal disilicides with the C40 structure (the space group of P6222 and P6422) by new convergent-beam electron diffraction method}}
+      \field{volume}{53}
+      \field{year}{2005}
+      \field{pages}{41\bibrangedash 52}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.actamat.2004.08.001
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/vancat/Documents/Mendeley Desktop/Sakamoto et al. - 2005 - Enantiomorph identification of transition-metal disilicides with the C40 structure (the space group of P6222 an.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S1359645404004689
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S1359645404004689
+      \endverb
+    \endentry
+    \entry{Thompson2014}{article}{}
+      \name{author}{12}{}{%
+        {{uniquename=0,uniquepart=base,hash=869349a331debb9a984d33fdc385105c}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Corey\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9b55083c040071087e4ce69d45f3e2ce}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5475b3fe74ae287676c74a7cfd92f44b}{%
+           family={Kovnir},
+           familyi={K\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4e34061bca951751d097e385cf1944e6}{%
+           family={Garlea},
+           familyi={G\bibinitperiod},
+           given={V\bibnamedelima Ovidiu},
+           giveni={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea4cfaa53005c5c2003ca1c86543dcd0}{%
+           family={Gippius},
+           familyi={G\bibinitperiod},
+           given={Andrei\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=be13b2e4e8ad22f9bcc2365cf0b272e4}{%
+           family={Yaroslavtsev},
+           familyi={Y\bibinitperiod},
+           given={Alexander\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9098a6880b703a0b83ab49a1ce28f90a}{%
+           family={Menushenkov},
+           familyi={M\bibinitperiod},
+           given={Alexey\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ab2b95967b9d85005cb75895ba9ae590}{%
+           family={Chernikov},
+           familyi={C\bibinitperiod},
+           given={Roman\bibnamedelima V},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e3f3d2211d3ee4bc1cff651d3629f3cb}{%
+           family={B{ü}ttgen},
+           familyi={B\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d3df4f97da72852e7cbdd7164638521d}{%
+           family={Kr{ä}tschmer},
+           familyi={K\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=302472ce3252a905f02d194d4805f1f9}{%
+           family={Zubavichus},
+           familyi={Z\bibinitperiod},
+           given={Yan\bibnamedelima V},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=66432063ae14fe2f7bb9b238b75f49bf}{%
+           family={Shatruk},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4da47fb2306d8808965d47681bfc2671}
+      \strng{fullhash}{795dd5494a53243519e460a05e6f38c7}
+      \strng{bibnamehash}{84dc98a65f383f81df94cc46e2cd8c68}
+      \strng{authorbibnamehash}{84dc98a65f383f81df94cc46e2cd8c68}
+      \strng{authornamehash}{4da47fb2306d8808965d47681bfc2671}
+      \strng{authorfullhash}{795dd5494a53243519e460a05e6f38c7}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0897-4756}
+      \field{journaltitle}{Chemistry of Materials}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{{Synthesis, Structures, and Magnetic Properties of Rare-Earth Cobalt Arsenides, RCo$_2$As$_2$ ($R$ = La, Ce, Pr, Nd)}}
+      \field{volume}{26}
+      \field{year}{2014}
+      \field{pages}{3825\bibrangedash 3837}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/cm501522v
+      \endverb
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.acs.org/doi/abs/10.1021/cm501522v
+      \endverb
+      \verb{url}
+      \verb http://pubs.acs.org/doi/abs/10.1021/cm501522v
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

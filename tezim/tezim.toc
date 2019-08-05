@@ -6,11 +6,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\bf {\contentsnameToC }}{iii}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\bf {\kisaltmanameToC }}{iv}
+\contentsline {part}{\bf {\listtablenameToC }}{iv}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\bf {\listtablenameToC }}{v}
+\contentsline {part}{\bf {\listfigurenameToC }}{v}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\bf {\listfigurenameToC }}{vi}
+\contentsline {part}{\bf {\kisaltmanameToC }}{vi}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\bf {\onsoznameToC }}{vii}
 \defcounter {refsection}{0}\relax 
@@ -20,11 +20,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}\IeC {\.I}kinci Dereceden Ba\IeC {\c s}l\IeC {\i }k}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Say\IeC {\i }lar\IeC {\i }n Yaz\IeC {\i }l\IeC {\i }\IeC {\c s}\IeC {\i }}{2}
+\contentsline {subsection}{\numberline {1.1.1}Say\IeC {\i }lar\IeC {\i }n Yaz\IeC {\i }l\IeC {\i }\IeC {\c s}\IeC {\i }}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.1.1.1}Kesirlerin yaz\IeC {\i }l\IeC {\i }\IeC {\c s}\IeC {\i }}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}\IeC {\c C}izelge \IeC {\"O}rne\IeC {\u g}i}{3}
+\contentsline {subsection}{\numberline {1.1.2}\IeC {\c C}izelge \IeC {\"O}rne\IeC {\u g}i}{2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.3}\IeC {\c S}ekil \IeC {\"O}rne\IeC {\u g}i}{3}
 \defcounter {refsection}{0}\relax 
@@ -32,26 +32,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.5}Madde \IeC {\.I}\IeC {\c s}aretleri ve Numaraland\IeC {\i }rma}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Kaynak g\IeC {\"o}sterme}{5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}"Soyad\IeC {\i } Y\IeC {\i }l" Kaynak G\IeC {\"o}sterme Tekni\IeC {\u g}i}{5}
+\contentsline {section}{\numberline {1.2}Latex'te Referans verme}{5}
 \defcounter {refsection}{0}\relax 
 \addvspace {-10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{2. \bf {\IeC {\.I}K\IeC {\.I}NC\IeC {\.I} B\IeC {\"O}L\IeC {\"U}M}}{8}
+\contentsline {chapter}{2. \bf {\IeC {\.I}K\IeC {\.I}NC\IeC {\.I} B\IeC {\"O}L\IeC {\"U}M}}{6}
 \defcounter {refsection}{0}\relax 
 \addvspace {-10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{3. \bf {\IeC {\"U}\IeC {\c C}\IeC {\"U}NC\IeC {\"U} B\IeC {\"O}L\IeC {\"U}M}}{9}
+\contentsline {chapter}{3. \bf {\IeC {\"U}\IeC {\c C}\IeC {\"U}NC\IeC {\"U} B\IeC {\"O}L\IeC {\"U}M}}{7}
 \defcounter {refsection}{0}\relax 
 \addvspace {-10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{4. \bf {D\IeC {\"O}RD\IeC {\"U}NC\IeC {\"U} B\IeC {\"O}L\IeC {\"U}M}}{10}
+\contentsline {chapter}{4. \bf {D\IeC {\"O}RD\IeC {\"U}NC\IeC {\"U} B\IeC {\"O}L\IeC {\"U}M}}{8}
+\defcounter {refsection}{0}\relax 
+\addvspace {-10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{5. \bf {BE\IeC {\c S}\IeC {\.I}NC\IeC {\.I} B\IeC {\"O}L\IeC {\"U}M}}{9}
 \defcounter {refsection}{0}\relax 
 \vskip -10pt\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\bf {KAYNAKLAR}}{11}
+\contentsline {chapter}{\bf {KAYNAKLAR}}{10}
 \defcounter {refsection}{0}\relax 
 \addvspace {-10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\bf {\ozgecmisnameToC }}{12}
+\contentsline {chapter}{\bf {\ozgecmisnameToC }}{11}
