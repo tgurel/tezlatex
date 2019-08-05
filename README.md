@@ -27,7 +27,7 @@ Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
    * tez savunma tarihi
    * jüri ad soyad **bilgileri girilecektir.**
    * Ayrıca "apa" ya da "IEEE" referans stili seçilecektir.
-   * Tezin içeriğini bu dosyaya yazılır. (ya da "\input bolumx.tex" kullanarak bolumleri ayrı dosyalara da yazabilirsiniz.)
+   * Tezin içeriği bu dosyaya yazılır. (ya da "\input bolumx.tex" kullanarak bölümleri ayrı dosyalara da yazabilirsiniz.)
 * **ozet.tex**
    * özetinizi bu dosyaya yazmalısınız.
 * **summary.tex**
