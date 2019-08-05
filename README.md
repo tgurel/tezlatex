@@ -35,3 +35,4 @@ Texstudio ile ilgili .tex dosyaları düzenlenerek tez yazılır.
    * simge ve kısaltmalarınızı bu dosyada tablo halinde vermelisiniz.
 * **tesekkur.tex**
    * 
+* **ozgecmis.tex**
